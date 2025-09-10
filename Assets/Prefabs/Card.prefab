@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6794730653806056176}
   - component: {fileID: 4460548591033549302}
   - component: {fileID: 8969088048774005154}
-  - component: {fileID: 7451405509859507198}
+  - component: {fileID: 2380872464359314021}
   m_Layer: 5
   m_Name: Card
   m_TagString: Untagged
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &7451405509859507198
+--- !u!114 &2380872464359314021
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,13 +131,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 3827727230759506508}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64bda40a1224146ba98ed0f41999d18d, type: 3}
+  m_Script: {fileID: 11500000, guid: cfe2af2b66511424fbf99845f45b4d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backImage: {fileID: 4460548591033549302}
-  frontRoot: {fileID: 4935996323796949730}
-  frontImage: {fileID: 4049391386973342678}
-  id: 0
+  frontImage: {fileID: 4460548591033549302}
+  backImage: {fileID: 4049391386973342678}
 --- !u!1 &4935996323796949730
 GameObject:
   m_ObjectHideFlags: 0
