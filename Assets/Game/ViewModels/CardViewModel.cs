@@ -30,7 +30,6 @@ namespace Game.ViewModels
 
         public void Hide()
         {
-            if (!IsRevealed) return;
             IsRevealed = false;
             OnHidden?.Invoke(this);
         }
